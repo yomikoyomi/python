@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     from testmod import testclass
     testclass2 = testclass()
-    testclass2.testmethod("2")
+    testclass2.testmethod("23")
