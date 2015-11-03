@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print >> obj, value
 
         if value == 20:
-            print >> obj, u"for roop is 20 over!!"
+            print >> obj, u"for roop is 20 over!!!!"
             sys.exit()
