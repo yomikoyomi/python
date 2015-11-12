@@ -26,6 +26,16 @@ def fizzbuzz2(num):
         fizBuz = fizBuz + "buzz"
     return fizBuz
 
+def fizzbuzz3(num):
+    if(num%15 == 0):
+        return 'fizzbuzz'
+    elif(num%5 == 0):
+        return 'buzz'
+    elif(num%3 == 0):
+        return 'fizz'
+    else:
+        return ''
 if __name__ == "__main__":
     for i in range(1, 101):
-        print(fizzbuzz(i))
+        print(i)
+        print(fizzbuzz3(i))
