@@ -7,7 +7,7 @@ class test ():
 
 if __name__ == "__main__":
     classList = []
-    classList.append(test("てすと1", "あああああ"))
+    classList.append(test("てすと1", "test"))
     classList.append(test("test2", "aaaaa"))
 
     for testClass in classList:
